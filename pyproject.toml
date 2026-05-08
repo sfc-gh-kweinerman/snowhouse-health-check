@@ -1,0 +1,13 @@
+[project]
+name = "snowhouse-health-check"
+version = "1.0.0"
+description = "Generate customer Snowflake cost health check PDFs from Snowhouse metering data"
+requires-python = ">=3.11"
+dependencies = [
+    "snowflake-connector-python>=3.6.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "reportlab>=4.0.0",
+    "Pillow>=10.0.0",
+    "numpy>=1.24.0",
+]
